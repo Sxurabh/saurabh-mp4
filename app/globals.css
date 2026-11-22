@@ -141,6 +141,7 @@ h1 {
   height: 692px;
   transform: scale(var(--ipod-scale));
   transform-origin: top left;
+  will-change: transform;
 }
 
 /* Reads the CSS chrome allowance (including safe areas) for the fitter. */
